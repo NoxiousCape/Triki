@@ -1,5 +1,6 @@
 # 🎮 Triki (Tic-Tac-Toe)
 
+<<<<<<< HEAD
 Un juego clásico de **Tres en Línea** (Tic-Tac-Toe) disponible en dos versiones: una **interfaz web moderna** con diseño glassmorphism y animaciones, y una **versión de consola** en Ruby. ¡Juega contra un amigo o desafía a la computadora con 3 niveles de dificultad!
 
 ## 🌟 Versiones Disponibles
@@ -20,6 +21,13 @@ Implementación clásica en Ruby para la terminal, perfecta para puristas de la 
 ## 📋 Descripción
 
 Triki ofrece dos modos de juego: **Dos Jugadores** para jugar con un amigo, o **Jugador vs Computadora** para desafiar a una IA con diferentes niveles de dificultad. Los jugadores alternan turnos para colocar sus marcas (X y O) en un tablero de 3x3, con el objetivo de formar una línea de tres símbolos iguales.
+=======
+Un juego clásico de **Tres en Línea** (Tic-Tac-Toe) implementado en Ruby, con una interfaz de consola simple y elegante. ¡Juega contra un amigo o desafía a la computadora con 3 niveles de dificultad!
+
+## 📋 Descripción
+
+Triki es una implementación del tradicional juego de tres en línea que ofrece dos modos de juego: **Dos Jugadores** para jugar con un amigo, o **Jugador vs Computadora** para desafiar a una IA con diferentes niveles de dificultad. El juego se desarrolla en la terminal, donde los jugadores alternan turnos para colocar sus marcas (X y O) en un tablero de 3x3, con el objetivo de formar una línea de tres símbolos iguales.
+>>>>>>> 87b5b751209d7b4c5cb04968795b0cdd9a6767ac
 
 ## ✨ Características
 
@@ -39,25 +47,36 @@ Triki ofrece dos modos de juego: **Dos Jugadores** para jugar con un amigo, o **
 
 ## 🚀 Requisitos
 
+<<<<<<< HEAD
 ### Para la Versión Web
 - Cualquier navegador web moderno (Chrome, Firefox, Edge, Safari)
 - No requiere instalación adicional
 
 ### Para la Versión Consola
+=======
+>>>>>>> 87b5b751209d7b4c5cb04968795b0cdd9a6767ac
 - Ruby 3.0 o superior
 
 ## 📦 Instalación
 
+<<<<<<< HEAD
 1. Clona este repositorio:
+=======
+1. Clona este repositorio o descarga el archivo `triki.rb`:
+>>>>>>> 87b5b751209d7b4c5cb04968795b0cdd9a6767ac
 
 ```bash
 git clone <url-del-repositorio>
 cd Triki
 ```
 
+<<<<<<< HEAD
 2. **Para la versión web**: ¡Ya está listo! Solo abre `index.html`
 
 3. **Para la versión consola**: Asegúrate de tener Ruby instalado:
+=======
+2. Asegúrate de tener Ruby instalado:
+>>>>>>> 87b5b751209d7b4c5cb04968795b0cdd9a6767ac
 
 ```bash
 ruby --version
@@ -65,6 +84,7 @@ ruby --version
 
 ## 🎯 Cómo Jugar
 
+<<<<<<< HEAD
 ### 🌐 Versión Web
 
 1. Abre el archivo `index.html` en tu navegador:
@@ -92,6 +112,8 @@ ruby --version
 
 ### 💻 Versión Consola
 
+=======
+>>>>>>> 87b5b751209d7b4c5cb04968795b0cdd9a6767ac
 1. Ejecuta el juego desde la terminal:
 
 ```bash
@@ -233,6 +255,7 @@ El nivel **Difícil** utiliza el algoritmo **Minimax**, una técnica de teoría 
 - Selecciona el mejor movimiento posible
 - Hace que la IA sea prácticamente **invencible** ♟️
 
+<<<<<<< HEAD
 ## 🎨 Tecnologías Utilizadas
 
 ### Versión Web
@@ -264,6 +287,8 @@ Triki/
 └── README.md           # Este archivo
 ```
 
+=======
+>>>>>>> 87b5b751209d7b4c5cb04968795b0cdd9a6767ac
 ## 🛠️ Desarrollo
 
 ### Depuración en VS Code
@@ -317,6 +342,9 @@ Este proyecto es de código abierto y está disponible bajo la licencia MIT.
 
 Desarrollado con ❤️ usando Ruby
 
+<<<<<<< HEAD
 ---
 
 ¡Disfruta jugando Triki! 🎉
+=======
+>>>>>>> 87b5b751209d7b4c5cb04968795b0cdd9a6767ac
