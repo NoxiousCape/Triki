@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triki - Tic-Tac-Toe</title>
+    <meta name="description" content="Juega Triki (Tic-Tac-Toe) con una interfaz moderna. Modo dos jugadores o contra la IA con diferentes niveles de dificultad.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎮 TRIKI 🎮</h1>
+            <p class="subtitle">Tic-Tac-Toe</p>
+        </header>
+
+        <div class="game-wrapper">
+            <!-- Mode Selection -->
+            <div id="modeSelection" class="mode-selection">
+                <h2>Selecciona el Modo de Juego</h2>
+                <div class="mode-buttons">
+                    <button class="mode-btn" data-mode="pvp">
+                        <span class="icon">👥</span>
+                        <span class="text">Dos Jugadores</span>
+                    </button>
+                    <button class="mode-btn" data-mode="ai">
+                        <span class="icon">🤖</span>
+                        <span class="text">Vs Computadora</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Difficulty Selection -->
+            <div id="difficultySelection" class="difficulty-selection hidden">
+                <h2>Selecciona la Dificultad</h2>
+                <div class="difficulty-buttons">
+                    <button class="difficulty-btn" data-difficulty="easy">
+                        <span class="icon">😊</span>
+                        <span class="text">Fácil</span>
+                        <span class="desc">Movimientos aleatorios</span>
+                    </button>
+                    <button class="difficulty-btn" data-difficulty="medium">
+                        <span class="icon">😐</span>
+                        <span class="text">Medio</span>
+                        <span class="desc">Bloquea y ataca</span>
+                    </button>
+                    <button class="difficulty-btn" data-difficulty="hard">
+                        <span class="icon">😈</span>
+                        <span class="text">Difícil</span>
+                        <span class="desc">IA invencible</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Game Board -->
+            <div id="gameBoard" class="game-board hidden">
+                <div class="game-info">
+                    <div class="info-item">
+                        <span class="label">Modo:</span>
+                        <span id="currentMode" class="value">-</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Turno:</span>
+                        <span id="currentPlayer" class="value player-x">X</span>
+                    </div>
+                </div>
+
+                <div id="board" class="board">
+                    <div class="cell" data-index="0"></div>
+                    <div class="cell" data-index="1"></div>
+                    <div class="cell" data-index="2"></div>
+                    <div class="cell" data-index="3"></div>
+                    <div class="cell" data-index="4"></div>
+                    <div class="cell" data-index="5"></div>
+                    <div class="cell" data-index="6"></div>
+                    <div class="cell" data-index="7"></div>
+                    <div class="cell" data-index="8"></div>
+                </div>
+
+                <div id="gameStatus" class="game-status"></div>
+
+                <div class="game-controls">
+                    <button id="resetBtn" class="control-btn">
+                        <span class="icon">🔄</span>
+                        <span class="text">Nuevo Juego</span>
+                    </button>
+                    <button id="changeModeBtn" class="control-btn secondary">
+                        <span class="icon">⚙️</span>
+                        <span class="text">Cambiar Modo</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>Creado con ❤️ | Versión Web del Triki Ruby</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

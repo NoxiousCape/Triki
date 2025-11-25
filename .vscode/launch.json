@@ -1,0 +1,34 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "rdbg",
+            "name": "Debug Triki",
+            "request": "launch",
+            "script": "${workspaceFolder}/triki.rb",
+            "args": [],
+            "askParameters": false,
+            "useBundler": false,
+            "env": {
+                "RUBYOPT": ""
+            }
+        },
+        {
+            "type": "rdbg",
+            "name": "Debug Current File",
+            "request": "launch",
+            "script": "${file}",
+            "args": [],
+            "askParameters": false,
+            "useBundler": false,
+            "env": {
+                "RUBYOPT": ""
+            }
+        },
+        {
+            "type": "rdbg",
+            "name": "Attach with rdbg",
+            "request": "attach"
+        }
+    ]
+}
