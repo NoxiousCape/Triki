@@ -316,7 +316,3 @@ Este proyecto es de código abierto y está disponible bajo la licencia MIT.
 ## 👨‍💻 Autor
 
 Desarrollado con ❤️ usando Ruby
-
----
-
-¡Disfruta jugando Triki! 🎉
